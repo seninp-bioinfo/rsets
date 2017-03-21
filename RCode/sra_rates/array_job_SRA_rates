@@ -1,0 +1,9 @@
+qsub -cwd -l h_vmem=5G -pe smp 4 -m abe -l nn=true -M psenin@lanl.gov -j y -V -S /bin/sh -o uge2008.log -N run2008 run2008.sh
+qsub -cwd -l h_vmem=5G -pe smp 4 -m abe -l nn=true -M psenin@lanl.gov -j y -V -S /bin/sh -o uge2009.log -N run2009 run2009.sh
+qsub -cwd -l h_vmem=5G -pe smp 4 -m abe -l nn=true -M psenin@lanl.gov -j y -V -S /bin/sh -o uge2010.log -N run2010 run2010.sh 
+qsub -cwd -l h_vmem=5G -pe smp 4 -m abe -l nn=true -M psenin@lanl.gov -j y -V -S /bin/sh -o uge2011.log -N run2011 run2011.sh 
+qsub -cwd -l h_vmem=5G -pe smp 4 -m abe -l nn=true -M psenin@lanl.gov -j y -V -S /bin/sh -o uge2012.log -N run2012 run2012.sh 
+qsub -cwd -l h_vmem=5G -pe smp 4 -m abe -l nn=true -M psenin@lanl.gov -j y -V -S /bin/sh -o uge2013.log -N run2013 run2013.sh 
+qsub -cwd -l h_vmem=5G -pe smp 4 -m abe -l nn=true -M psenin@lanl.gov -j y -V -S /bin/sh -o uge2014.log -N run2014 run2014.sh 
+qsub -cwd -l h_vmem=5G -pe smp 4 -m abe -l nn=true -M psenin@lanl.gov -j y -V -S /bin/sh -o uge2015.log -N run2015 run2015.sh 
+qsub -cwd -l h_vmem=5G -pe smp 4 -m abe -l nn=true -M psenin@lanl.gov -j y -V -S /bin/sh -o uge2016.log -N run2016 run2016.sh
